@@ -1,0 +1,72 @@
+.posts {
+  max-width: 80vwx;
+  margin-left: 15vw;
+  padding: 0 15px;
+}
+
+.post {
+  background: #fff;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.post h2 {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.post p {
+  line-height: 1.5;
+  color: #666;
+}
+
+.read-more {
+  color: #0077cc;
+  cursor: pointer;
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+.social-interaction {
+  border-top: 1px solid #eee;
+  padding-top: 0.5rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.likes {
+  font-size: 1rem;
+  color: #e44d3a;
+}
+
+.actions {
+  display: flex;
+}
+
+.comment-btn,
+.share-btn {
+  background: none;
+  border: none;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  color: #0077cc;
+}
+
+.comment-btn:before {
+  content: '💬';
+}
+
+.share-btn:before {
+  content: '🔗';
+}
+
+@media (max-width: 1000px) {
+  .posts {
+    width: 100%;
+    margin: 0;
+  }
+}

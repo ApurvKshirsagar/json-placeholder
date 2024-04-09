@@ -1,0 +1,28 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+  width: 80vw;
+  margin-left: 15vw;
+}
+
+.photo {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 0.5rem;
+}
+
+.photo img {
+  width: 100%;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 1000px) {
+  .gallery {
+    width: 100%;
+    margin: 0;
+  }
+}
